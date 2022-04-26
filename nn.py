@@ -40,7 +40,7 @@ def read(filename):
 # read the data
 # Xs: geometric invariants
 # Ys: arithmetic invariants
-Xs, Ys = read('table_wo_res3.txt')
+Xs, Ys = read('table.txt')
 
 # omit possibly incomplete last datapoint
 Xs, Ys = np.array(Xs[:-1]), np.array(Ys[:-1])
